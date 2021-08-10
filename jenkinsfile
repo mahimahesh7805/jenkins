@@ -2,7 +2,7 @@ node {
     
     stage('Preparation') { // for display purposes
         // Get some code from a GitHub repository
-       git branch: 'main', credentialsId: '0cecc1ea-8204-44bf-b5b7-111d0a6d8746', url: 'https://github.com/mahimahesh7805/maven.git'
+       git branch: 'main', credentialsId: '0cecc1ea-8204-44bf-b5b7-111d0a6d8746', url: 'https://github.com/mahimahesh7805/jenkins.git'
         // Get the Maven tool.
         // ** NOTE: This 'M3' Maven tool must be configured
         // **       in the global configuration.
